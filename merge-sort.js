@@ -15,6 +15,7 @@ function mergeSort(array) {
     // Merge the sorted halves
     return merge(sortedLeft, sortedRight);
 }
+
 function merge(left, right) {
     let mergedArray = [];
     let i = 0;
